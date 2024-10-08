@@ -2,7 +2,7 @@
   <VCard class="message-card" density="compact" :class="{ 'message-card--own': isOwn }">
     <template #text>
       <div class="message-card__date">
-        {{ createdAt.format('DD.MM.YYYY HH:MM') }}
+        {{ createdAt.format('DD.MM.YYYY HH:mm') }}
       </div>
       <div class="message-card__message">
         {{ message }}
