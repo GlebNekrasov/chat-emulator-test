@@ -23,7 +23,7 @@ const user2: User = {
 <style scoped lang="scss">
 .chat-page {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   overflow: auto;
   height: 100vh;
   padding: 24px;
